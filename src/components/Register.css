@@ -1,0 +1,38 @@
+body {
+  background-color: #2e2e2e; /* Lightish black background */
+  color: #0f0505; /* White text for better contrast */
+}
+
+.container {
+  background-color: rgba(
+    188,
+    96,
+    96,
+    0.9
+  ); /* Dark grey background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  color: #ffffff;
+}
+
+label {
+  color: #ffffff; /* Change label color */
+}
+
+.form-control {
+  background-color: #666666; /* Slightly lighter background for inputs */
+  color: #ffffff; /* White text for inputs */
+  border: 1px solid #888888; /* Grey border for inputs */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary button color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
